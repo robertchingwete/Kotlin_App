@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <!-- Dropdown Menu for Unit Selection (From Unit) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spinner_from_unit_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp">
+        <Spinner
+            android:id="@+id/spinner_from_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/units_array"
+            android:prompt="@string/from_unit_prompt"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Dropdown Menu for Unit Selection (To Unit) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spinner_to_unit_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_from_unit_card"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp">
+        <Spinner
+            android:id="@+id/spinner_to_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/units_array"
+            android:prompt="@string/to_unit_prompt"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Input Field -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/input_value_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_to_unit_card"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp">
+        <EditText
+            android:id="@+id/input_value"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/input_value_hint"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textColorHint="@color/grey"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Display Converted Result -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tv_converted_result_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_value_card"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp">
+        <TextView
+            android:id="@+id/tv_converted_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:gravity="center"
+            android:text="@string/converted_result_placeholder"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

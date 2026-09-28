@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="from_unit_prompt">Select From Unit</string>
+    <string name="to_unit_prompt">Select To Unit</string>
+    <string name="input_value_hint">Enter value to convert</string>
+    <string name="converted_result_placeholder">Converted Result</string>
+
+    <string-array name="units_array">
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+</resources>

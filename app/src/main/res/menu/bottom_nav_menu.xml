@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Calendar Item -->
+    <item
+        android:id="@+id/nav_calendar"
+        android:title="Calendar"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="ifRoom" />
+
+    <!-- Calculator Item -->
+    <item
+        android:id="@+id/nav_calculator"
+        android:title="Calculator"
+        android:icon="@drawable/ic_calculator"
+        app:showAsAction="ifRoom" />
+
+    <!-- Converter Item -->
+    <item
+        android:id="@+id/nav_converter"
+        android:title="Converter"
+        android:icon="@drawable/ic_converter"
+        app:showAsAction="ifRoom" />
+
+    <!-- Flash Events Item -->
+    <item
+        android:id="@+id/nav_flash_events"
+        android:title="Flash Events"
+        android:icon="@drawable/ic_flash_events"
+        app:showAsAction="ifRoom" />
+
+    <!-- More Item -->
+    <item
+        android:id="@+id/nav_more"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="ifRoom"/>
+
+</menu>

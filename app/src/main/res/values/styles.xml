@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <!-- Base Style for Number Buttons -->
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for Operator Buttons -->
+    <style name="CalcButtonOperator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/button_operator_background</item>
+        <item name="android:textColor">@color/operator_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style for Clear Button -->
+    <style name="CalcButtonClear">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/button_clear_background</item>
+        <item name="android:textColor">@color/clear_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

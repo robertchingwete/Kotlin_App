@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color">#6200EE</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="tab_unselected">#B0BEC5</color>
+
+    <color name="bottom_nav_item_color">#512DA8</color> <!-- Deep Purple -->
+    <color name="shadow_color">#40000000</color> <!-- Semi-transparent shadow -->
+    <color name="accent_color">#FF4081</color> <!-- Vibrant pink -->
+    <color name="separator_line">#E0E0E0</color> <!-- Light separator -->
+    <color name="text_secondary">#757575</color> <!-- Gray text -->
+
+
+        <color name="primary_text">#212121</color> <!-- Dark text color for display -->
+        <color name="button_text">#212121</color> <!-- Dark text for buttons -->
+        <color name="operator_text">#FFFFFF</color> <!-- White text for operators -->
+        <color name="clear_text">#FF4081</color> <!-- Pink text for clear button -->
+        <color name="button_background">#FFEB3B</color> <!-- Button background yellow -->
+        <color name="operator_background">#03A9F4</color> <!-- Blue operator background -->
+        <color name="button_border">#FF9800</color> <!-- Border color for buttons -->
+
+    <color name="grey">#808080</color> <!-- You can adjust the grey shade if necessary -->
+
+
+</resources>

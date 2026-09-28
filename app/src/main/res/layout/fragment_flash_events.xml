@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/background_color"> <!-- Add a background color -->
+
+    <!-- ListView to display events -->
+    <ListView
+        android:id="@+id/list_view_events"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fab_add_event"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:padding="8dp"
+        android:background="@drawable/listview_background"
+    android:elevation="4dp"
+    android:clipToPadding="false" />
+
+    <!-- TextView to show when there are no events -->
+    <TextView
+        android:id="@+id/no_events_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No events available"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:visibility="gone"
+    android:layout_centerInParent="true"
+    android:background="@drawable/no_events_background"
+    android:padding="16dp"
+    android:layout_alignParentTop="true"
+    android:elevation="2dp" />
+
+    <!-- Floating Action Button for adding events -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+    android:contentDescription="Add Event"
+    android:backgroundTint="@color/primary_color"
+    android:elevation="6dp"
+    app:fabSize="normal" />
+</RelativeLayout>
